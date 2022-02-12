@@ -1,7 +1,7 @@
 ﻿#fill your local folder here:
-$Path = "C:\Users\d.shumilin\OneDrive - Itransition, CJSC\Documents\Project\Bitbucket\powerbi\Reports\"
+$Path = "...\Bitbucket\powerbi\Reports\"
 
-#$Workspaces=@("SEKO 360 [Client]","SEKO 360 [DC Operational]","SEKO 360 [Indigina]","SEKO 360 [Bespoke]","SEKO 360 [Client & DC]")
+#$Workspaces=@("[Client]","[DC Operational]")
 $Workspaces=@("Test Workspace")
 
 
