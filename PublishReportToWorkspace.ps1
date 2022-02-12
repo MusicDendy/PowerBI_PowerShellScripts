@@ -20,12 +20,12 @@
 param
 (
     
-[string] $Path = "C:\Bitbucket\powerbi\Reports\",
+[string] $Path = "C:\Bitbucket\.....",
 [object] $ExludedFolders=@("Obsolete"),
-[string] $SourceWorkspaceName="SEKO 360 [Production]",
+[string] $SourceWorkspaceName="[Production]",
 [string] $DatasetName="MainDatasetDWH",
-[string] $DevelopmentWorspace="SEKO 360 [Development]",
-[object] $ExcludedFiles = @("Theme.json", "Template.pbix", "Template.pbit", "RLS Validating.pbix"),
+[string] $DevelopmentWorspace="[Development]",
+[object] $ExcludedFiles = @(""Template.pbix", "Template.pbit", "RLS Validating.pbix"),
 [bool]   $CreateTargetWorkspaceIfNotExists = $true,
 #[bool]   $UsedDevelopDatasetinGit = $true,
 [bool]   $AddNewReportsinTargetWorkspace=$true,
